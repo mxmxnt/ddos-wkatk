@@ -1,2 +1,0 @@
-# ddos-wkatk
-attack
