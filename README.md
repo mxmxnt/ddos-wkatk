@@ -1,2 +1,2 @@
-# ddos-wkatk
+# ddos-wknet
 attack
