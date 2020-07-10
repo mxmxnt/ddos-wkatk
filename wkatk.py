@@ -1,5 +1,9 @@
 import socket
 import threading
+import sys
+import os
+import time
+import random
 print
 target = target("Target:")
 fake_ip = fake_ip("FakeIP:")
