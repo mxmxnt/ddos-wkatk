@@ -1,7 +1,7 @@
 import socket
 import threading
 print
-target = raw_input("IP Target : ")
+ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
 attack_num = 0
