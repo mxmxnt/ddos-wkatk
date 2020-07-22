@@ -1,8 +1,8 @@
 import socket
 import threading
-target = '172.16.16.16'
+target = '216.58.203.78'
 fake_ip = '212.103.49.141'
-port = 8090
+port = 443
 
 attack_num = 0
 
